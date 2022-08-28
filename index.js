@@ -29,7 +29,8 @@ app.get('/api/token/:token_id', function(req, res) {
       'Sediment Layer': `${person.sed}`,
       'Environment': `${person.env}`,
       'Artifact': `${person.art}`,
-      'Location': `${person.location}`
+      'Location': `${person.location}`,
+      'Location': person.size
     },
     'image': `${person.imgurl}`
   }
