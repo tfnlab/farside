@@ -32,7 +32,7 @@ app.get('/api/token/:token_id', function(req, res) {
       'Location': `${person.location}`
     },
     'image': `${person.imgurl}`
-
+  }
   res.send(data)
 })
 
