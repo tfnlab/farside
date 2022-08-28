@@ -25,7 +25,7 @@ app.get('/api/token/:token_id', function(req, res) {
     'name': tokenId,
     'animation_url': `${person.glburl}`,
     'attributes': {
-      'Water Resource': person.water,
+      'Water Resource': `${person.water}`,
       'Sediment Layer': `${person.sed}`,
       'Environment': `${person.env}`,
       'Artifact': `${person.art}`,
