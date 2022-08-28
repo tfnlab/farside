@@ -30,7 +30,7 @@ app.get('/api/token/:token_id', function(req, res) {
       'Environment': `${person.env}`,
       'Artifact': `${person.art}`,
       'Location': `${person.location}`,
-      'Location': person.size
+      'Lot Size in Meters': person.size
     },
     'image': `${person.imgurl}`
   }
