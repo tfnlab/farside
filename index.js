@@ -23,11 +23,13 @@ app.get('/api/token/:token_id', function(req, res) {
   const person = db[tokenId]
   const data = {
     'name': tokenId,
+    'animation_url': `${person.glburl}`,
     'attributes': {
       'Water Resource': `${person.water}`,
       'Sediment Layer': `${person.sed}`,
       'Environment': `${person.env}`,
       'Artifact': `${person.art}`,
+      'Location': `${person.location}`,
       'Size': person.size
     },
     'image': `${person.imgurl}`
