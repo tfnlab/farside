@@ -1,4 +1,4 @@
-const HOST = 'https://farside.tfnlab.com'
+const HOST = 'https://md.majpo.com'
 
 module.exports = {
   HOST
