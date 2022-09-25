@@ -22,5 +22,11 @@ module.exports = {
     "imgurl": "https://md.majpo.com/images/3.png",
     "tribe": "TlhIv",
     "rank": "'e' luQIjbe'lu'chugh'"
+  },
+  "4": {
+    "glburl": "https://majpo.com/download.aw.glb.jsp?nft=4",
+    "imgurl": "https://md.majpo.com/images/4.png",
+    "tribe": "TlhIv",
+    "rank": "Qeb"
   }
 }
