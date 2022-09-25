@@ -25,8 +25,8 @@ app.get('/api/token/:token_id', function(req, res) {
     'name': tokenId,
     'animation_url': `${person.glburl}`,
     'attributes': {
-      'Tribe': `${person.water}`,
-      'Rank': `${person.sed}`
+      'Tribe': `${person.tribe}`,
+      'Rank': `${person.rank}`
     },
     'image': `${person.imgurl}`
   }
