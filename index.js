@@ -25,8 +25,11 @@ app.get('/api/token/:token_id', function(req, res) {
     'name': tokenId,
     'animation_url': `${person.glburl}`,
     'attributes': {
-      'Tuq': `${person.tribe}`,
-      'Patlh': `${person.rank}`
+      'Color': `${person.color}`,
+      'Size': `${person.size}`,
+      'Type': `${person.type}`,
+      'Style': `${person.style}`,
+      'Brand': `${person.brand}`
     },
     'image': `${person.imgurl}`
   }
